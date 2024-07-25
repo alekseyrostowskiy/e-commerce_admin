@@ -6,6 +6,7 @@ import GoogleProvider from "next-auth/providers/google";
 const adminEmails = ["alexrostowskiy@gmail.com"];
 
 export const authOptions = {
+  secret:"alsjcnajcs",
   providers: [
     // OAuth authentication providers...
     GoogleProvider({
